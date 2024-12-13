@@ -3,7 +3,7 @@
   "description": "给选中的汉字标上拼音，支持生僻字，快捷键alt+b或alt+p",
   "version": "1.2",
   "manifest_version": 3,
-  "permissions": ["contextMenus", "storage"],
+  "permissions": ["contextMenus", "activeTab"],
   "background": {
     "service_worker": "background.js",
     "type": "module"
@@ -15,8 +15,8 @@
     }
   ],
   "icons": {
-    "16": "globalGoogle16.png",
-    "48": "globalGoogle48.png",
-    "128": "globalGoogle128.png"
+    "16": "xixi16.png",
+    "48": "xixi48.png",
+    "128": "xixi128.png"
   }
 }
